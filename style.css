@@ -14,7 +14,7 @@ body{
     transform: scale(1.5);
 }
 .fpage{
-    background-image:url(background.Jpg);
+    background-image:url(background.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
