@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+body{    
+    overflow: hidden;
+}
+.material-symbols-outlined:hover{
+    transform: scale(1.5);
+}
+.fpage{
+    background-image:url(background.Jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding-top: 20px;
+}
+hr{
+    position: relative;
+    top: 15px;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabeçalho-link a{
+    display: flex;
+    color: #0022ff;
+    font-size: 15pt;
+}
+
+.cabeçalho-link a:hover{
+    font-size: 20pt;
+    color: #0496ff;
+    transition: 0.3s all;
+}
+.logo{
+    margin-left: none;
+    height: 75px;
+    width: 75px;
+    background: transparent;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-height: max-content;
+    max-width: max-content;
+}
+.logo:hover{
+    transform: scale(2);
+    transition: 0.5s all;
+}
+button{
+    color: #1500ff;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(244, 244, 244, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15pt;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: #1500ff;
+    color: #ffffff;
+    transition: 0.5s all;
+}
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.text{
+    height: max-content;
+    width: max-content;
+    color: rgb(2, 2, 2);
+    font-size: 25pt;
+}
+.text h1{
+    height: 100px;
+    width: max-content;
+    color: rgb(0, 0, 0);
+}
+
+.text h3{
+    margin-top: 10px;
+    color: #1500fe;
+}
+.text span{
+    color: #1500ff;
+}
+.text p{
+    color: #000000;
+    font-size: 14pt;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.redes-sociais{
+    gap: 50px;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    width: 150px;
+}
+.fa-facebook{
+    color: #0d00ff;
+}
+.fa-facebook:hover{
+    transform: scale(1.2);
+    color: #0d00ff;
+    transition: 0.8s all linear;
+}
+.fa-twitter{
+    color: #0496ff;
+}
+.fa-twitter:hover{
+    transition: 0.8s all linear;
+    transform: scale(1.2);
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.fa-instagram:hover{
+    transition: 0.8s all linear;
+    transform: scale(1.2);
+}
+.fa-github{
+    color: #0d0d0d;
+}
+.fa-github:hover{
+    transition: 0.8s all linear;
+    transform: scale(1.2);
+}
+.fa-linkedin{
+    color: #0404ff;
+}
+.fa-linkedin:hover{
+    transition: 0.8s all linear;
+    transform: scale(1.2);
+}
+
+
