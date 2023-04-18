@@ -14,215 +14,214 @@ body{
 .material-symbols-outlined:hover{
     transform: scale(1.5);
 }
-.pag1{
-    background-image:url(background.jpg);
-    background-position: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-}
-header{
-    background: -webkit-linear-gradient(rgba(47, 0, 255, 0.272),rgba(128, 128, 128, 0.528));
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    align-items: center;
-    text-align: center;
-    gap: 40px;
-    padding-top: 10px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
-hr{
-    position: relative;
-    top: 0px;
-}
-.cabeçalho-link{
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    font-weight: 300;
-    cursor: pointer;
-}
-    .cabeçalho-link a{
-    display: flex;
-    color: #0022ff;
-    font-size: 15pt;
-}
-    .cabeçalho-link a:hover{
-    font-size: 20pt;
-    color: #0496ff;
-    transition: 0.3s all;
-}
-.logo{
-    margin-left: none;
-    height: 75px;
-    width: 75px;
-    background: transparent;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    max-height: max-content;
-    max-width: max-content;
-}
-    .logo:hover{
-    transform: scale(1.05);
-    transition: 0.5s all;
-    filter: contrast(10);
-}
-.frame {
-    width: 90%;
-    margin: 40px auto;
-    text-align: center;
-}
-button {
-    margin: 15px;
-}
-.custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-  }
-  .btn-5 {
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    background: rgb(13, 0, 255);
-  background: linear-gradient(0deg, rgb(93, 2, 249) 0%, rrgb(150, 4, 255)100%);
-  }
-  .btn-5:hover {
-    color: #0400ff;
-    background: transparent;
-     box-shadow:none;
-     transform: scale(1.2);
-  }
-  .btn-5:before,
-  .btn-5:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #0008ff;
-    box-shadow:
-     -1px -1px 5px 0px #fff,
-     7px 7px 20px 0px #0003,
-     4px 4px 5px 0px #0002;
-    transition:400ms ease all;
-    transform: scale(1.2);
-  }
-  .btn-5:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .btn-5:hover:before,
-  .btn-5:hover:after{
-    width:100%;
-    transition:800ms ease all;
-}
-.conteiner{
-    width: 100vw;
-    height: 100vh;
-    padding-top: 50px;
-    padding-left: 100px;
-}
-    .text{
-    height: max-content;
-    width: max-content;
-    color: rgb(2, 2, 2);
-    font-size: 25pt;
+    .pag1{
+        background-image:url(back1.png);
+        background-position: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
     }
-    .text h1{
-        height: 100px;
+    header{
+            background-color: #000000;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            max-width: 100%;
+            align-items: center;
+            text-align: center;
+            gap: 40px;
+            padding-top: 10px;
+            box-shadow: 0 8px 32px 0 rgba(3, 3, 3, 0.37);
+        }
+        hr{
+            position: relative;
+            top: 0px;
+        }
+        .cabeçalho-link{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            font-weight: 300;
+            cursor: pointer;
+        }
+                .cabeçalho-link a{
+                display: flex;
+                color: #ffffff;
+                font-size: 15pt;
+            }
+                .cabeçalho-link a:hover{
+                transform: scale(1.1);
+                color: #1500ff;
+                transition: 0.3s all;
+            }
+        .logo{
+            margin-left: none;
+            height: 75px;
+            width: 75px;
+            filter: invert(100);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+            .logo:hover{
+            transform: scale(1.05);
+            transition: 0.5s all;
+            
+        }
+        .frame {
+            width: 90%;
+            margin: 40px auto;
+            text-align: center;
+        }
+    button {
+            margin: 15px;
+        }
+        .custom-btn {
+            width: 130px;
+            height: 40px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 25px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+            7px 7px 20px 0px rgba(0,0,0,.1),
+            4px 4px 5px 0px rgba(0,0,0,.1);
+            outline: none;
+        }
+        .btn-5 {
+            width: 130px;
+            height: 40px;
+            line-height: 42px;
+            padding: 0;
+            border: none;
+            background: rgb(13, 0, 255);
+        background: linear-gradient(0deg, rgb(93, 2, 249) 0%, rrgb(150, 4, 255)100%);
+        }
+        .btn-5:hover {
+            color: #0400ff;
+            background: transparent;
+            box-shadow:none;
+            transform: scale(1.2);
+        }
+        .btn-5:before,
+        .btn-5:after{
+            content:'';
+            position:absolute;
+            top:0;
+            right:0;
+            height:2px;
+            width:0;
+            background: #0008ff;
+            box-shadow:
+            -1px -1px 5px 0px #fff,
+            7px 7px 20px 0px #0003,
+            4px 4px 5px 0px #0002;
+            transition:400ms ease all;
+            transform: scale(1.2);
+        }
+        .btn-5:after{
+            right:inherit;
+            top:inherit;
+            left:0;
+            bottom:0;
+        }
+        .btn-5:hover:before,
+        .btn-5:hover:after{
+            width:100%;
+            transition:800ms ease all;
+        }
+    .conteiner{
+            width: 100vw;
+            height: 100vh;
+            padding-top: 50px;
+            padding-left: 100px;
+        }
+        .text{
+        height: max-content;
         width: max-content;
-        color: rgb(0, 0, 0);
-    }
-    .text h3{
-        margin-top: 10px;
-        color: #1500fe;
-    }
-    .text span{
-        color: #1500ff;
-    }
-    .text p{
-        color: #000000;
-        font-size: 14pt;
-        font-weight: 300;
-        margin-top: 10px;
-    }
-.redes-sociais{
-    gap: 50px;
-    font-size: 50px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    align-items: center;
-    justify-content: flex-start;
-    display: flex;
-    width: 150px;
-    }
-    .fa-facebook{
-        color: #0d00ff;
-    }
-    .fa-facebook:hover{
-        transform: scale(1.2);
-        color: #0d00ff;
-        transition: 0.8s all linear;
-    }
-    .fa-twitter{
-        color: #0496ff;
-    }
-    .fa-twitter:hover{
-        transition: 0.8s all linear;
-        transform: scale(1.2);
-    }
-    .fa-instagram{
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        
-    }
-        .fa-instagram:hover{
+        color: rgb(2, 2, 2);
+        font-size: 25pt;
+        padding-top: 30px;
+        }
+        .text h1{
+            height: 100px;
+            width: max-content;
+            color: rgb(255, 255, 255);
+        }
+        .text h3{
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .text span{
+            color: #1500ff;
+        }
+        .text p{
+            color: #ffffff;
+            font-size: 14pt;
+            font-weight: 300;
+            margin-top: 10px;
+            padding-top: 20px;
+        }
+    .redes-sociais{
+        gap: 50px;
+        font-size: 50px;
+        padding-top: 55px;
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+        width: 150px;
+        }
+        .fa-facebook{
+            color: #0d00ff;
+        }
+        .fa-facebook:hover{
+            transform: scale(1.2);
+            color: #0d00ff;
+            transition: 0.8s all linear;
+        }
+        .fa-twitter{
+            color: #0496ff;
+        }
+        .fa-twitter:hover{
             transition: 0.8s all linear;
             transform: scale(1.2);
         }
-    .fa-github{
-    color: #0d0d0d;
-    }
-    .fa-github:hover{
-        transition: 0.8s all linear;
-        transform: scale(1.2);
-    }
-    .fa-linkedin{
-    color: #0404ff;
-    }
-        .fa-linkedin:hover{
-        transition: 0.8s all linear;
-        transform: scale(1.2);
+        .fa-instagram{
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
         }
-    footer:hover{
-    cursor: pointer;
-    }
+        .fa-instagram:hover{
+                transition: 0.8s all linear;
+                transform: scale(1.2);
+        }
+        .fa-github{
+        color: #ffffff;
+        }
+        .fa-github:hover{
+            transition: 0.8s all linear;
+            transform: scale(1.2);
+        }
+        .fa-linkedin{
+        color: #0A66C2;
+        }
+        .fa-linkedin:hover{
+            transition: 0.8s all linear;
+            transform: scale(1.2);
+        }
+        footer:hover{
+        cursor: pointer;
+        }
 .pag2{
     background: linear-gradient(rgba(84, 83, 83, 0.586),white,
     rgb(168, 167, 167));
